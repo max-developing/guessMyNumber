@@ -30,6 +30,7 @@ const wrongNumber = function () {
       ? "❌ Try higher number !"
       : "❌ Try lower number !";
   score.textContent = curNumber;
+  inputNumber.value = "";
 };
 
 const updateHighScore = function () {
