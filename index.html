@@ -28,10 +28,21 @@
         </div>
 
         <div class="info__container">
-            <p class="info__highOrLow">👍 Start guessing . . .</p>                
+            <p class="info__message">👍 Start guessing . . .</p>                
             <p class="info__score">⛔ Score: <span class="score">20</span></p>
             <p class="info__highScore">🥇 High score: <span class="highScore">0</span></p>
         </div>
     </main>
+
+    <div class="overlay hidden"></div>
+
+    <div class="popUp hidden">
+        <p class="popUp__message">The round is not finished yet, start new game anyway?</p>
+        <p class="popUp__note wrong">Please be awared that this will reset your high score to 0.</p>
+        <div class="popUp__btns">
+            <button class="btn btn__yes">Yes !</button>
+            <button class="btn btn__no">No !</button>
+        </div>
+    </div>
 </body>
 </html>
